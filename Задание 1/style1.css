@@ -76,6 +76,7 @@
 
 }
 .block-line{
+    margin-top: 5vh;
     height: 20vh;
 }
 
@@ -136,9 +137,9 @@ font-family: 'Montserrat';
 }
 
 #logo-photo{
-    width: 80%;
+    width: 20vh;
     z-index: 1001;
-    margin-left: 1vh;
+    margin-left: 4vh;
 } 
 .nav{
     font-size: 14px;
@@ -163,7 +164,7 @@ font-family: 'Montserrat';
     margin: 0 25px;
     text-decoration: none ;
     color:#fff;
-    font-size: 30px;
+    font-size: 45px;
     transition: color 0.5s linear;
     font-family: 'Montserrat';
 
@@ -239,10 +240,6 @@ margin-right: 10vh;
     cursor: pointer;
     transition: width, height 0.5s linear;
 
-}
-.boot-photo:hover{
-    width: 42vh;
-    height: 42vh;
 }
 .block2-container{
     display: flex;
@@ -333,17 +330,17 @@ margin-right: 10vh;
         margin: 0 25px;
         text-decoration: none ;
         color:#fff;
-        font-size: 50px;
+        font-size: 35px;
         transition: color 0.5s linear;
         font-family: 'Montserrat';
     }
     h1.photo-block-label{
         margin-bottom:0vh;
-        font-size: 65px;
+        font-size: 45px;
         margin: 0 auto;
         position: absolute;
-        margin-top: 3vh;
-        margin-left: 8vh;
+        margin-top: 0vh;
+        margin-left: 0vh;
         font-family: 'Montserrat';
     }
     .photo-block{
@@ -616,7 +613,7 @@ margin-right: 10vh;
         font-family: 'Montserrat';
     }
     img#logo-photo{
-        margin-left: 3vh;
+        margin-left: 6vh;
         width: 8vh;
     } 
 }
@@ -938,7 +935,7 @@ margin-right: 10vh;
         right: 0;
         z-index: 998;
         background-size: cover;
-        height: 60vh;
+        height: 80vh;
         background: rgb(192, 191, 191);
     } 
     h1.first-phraze{
